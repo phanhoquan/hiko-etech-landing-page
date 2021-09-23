@@ -83,7 +83,7 @@ export default {
   },
 
   i18n: {
-    locales: ["en", "vi"],
+    locales: ["vi", "en"],
     defaultLocale: "en",
     strategy: "prefix",
     seo: true,
