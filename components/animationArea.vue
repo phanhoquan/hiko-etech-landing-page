@@ -1,11 +1,11 @@
 <template>
-  <div id="animation-area" class="container">
-    <div class="row animation-area">
-      <div class="witcher-container">
+  <div class="container">
+    <div class="animation-area">
+      <div class="Illustrator-container">
         <img
-          class="witcher"
-          src="../assets/images/contents/witcher.png"
-          alt="Witcher"
+          class="Illustrator"
+          src="../assets/images/contents/Illustrator.png"
+          alt="Illustrator"
         />
       </div>
 

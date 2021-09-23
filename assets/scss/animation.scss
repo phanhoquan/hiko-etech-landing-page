@@ -2,10 +2,11 @@
     justify-content: center;
     margin-top: 50px;
 
-    .witcher-container {
+    .Illustrator-container {
         position: relative;
+        text-align: center;
 
-        .witcher {
+        .Illustrator {
             position: relative;
             animation-name: animation-move;
             animation-duration: 2s;
@@ -28,13 +29,21 @@
     .animation-area {
         margin-top: 20px;
 
-        .witcher {
+        .Illustrator {
             width: 300px;
             animation-name: none;
         }
 
         .map {
             width: 380px;
+        }
+    }
+}
+
+@media (max-width: 480px) {
+    .animation-area {
+        .map {
+            width: 100%;
         }
     }
 }
