@@ -1,12 +1,14 @@
-.header {
+.section-header {
   padding-bottom: 180px;
   background-position: bottom center;
   background-size: cover;
   background-image: url('../images/header/banner.png');
 
-  .container-fluid {
+  header {
     position: relative;
     z-index: 1;
+    padding-left: 15px;
+    padding-right: 15px;
 
     nav {
       text-transform: uppercase;
@@ -178,7 +180,7 @@
     background-position: center bottom -100%;
   }
 
-  .banner {
+  .banner-event {
     margin-top: 120px;
     position: relative;
     z-index: 1;
@@ -199,19 +201,10 @@
       letter-spacing: 0.6px;
       color: #fff;
 
-      &.mobile {
-        display: none !important;
-      }
-
       @media (max-width: 768px) {
         font-size: 40px;
         line-height: 50px;
-        display: none !important;
-
-        &.mobile {
-          display: block !important;
-          white-space: pre-line;
-        }
+        white-space: pre-line;
       }
     }
 

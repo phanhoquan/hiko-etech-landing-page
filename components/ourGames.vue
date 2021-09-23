@@ -1,5 +1,5 @@
 <template>
-  <div id="our-games" class="our-games">
+  <section id="our-games" class="our-games">
     <h3>{{ $t("ourGames.title") }}</h3>
 
     <div class="d-flex justify-content-center">
@@ -195,7 +195,7 @@
         </div>
       </div>
     </div>
-  </div>
+  </section>
 </template>
 
 <script>

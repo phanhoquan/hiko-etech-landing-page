@@ -12,8 +12,7 @@ export default {
     contactUs: 'CONTACT US'
   },
   banner: {
-    title: "We’re Getting Ready",
-    titleMobile: `We’re
+    title: `We’re
     Getting Ready`,
     time : {
       days: "Days",

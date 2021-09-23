@@ -12,8 +12,7 @@ export default {
     contactUs: 'Liên hệ'
   },
   banner: {
-    title: "Trò chơi sắp ra mắt",
-    titleMobile: `Trò chơi
+    title: `Trò chơi
     sắp ra mắt`,
     time: {
       days: "Ngày",

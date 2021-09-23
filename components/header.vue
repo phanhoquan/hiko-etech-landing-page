@@ -1,6 +1,6 @@
 <template>
-  <header class="header">
-    <div class="container-fluid">
+  <section class="section-header">
+    <header>
       <nav class="navbar navbar-inverse">
         <a href="/" class="logo" title="">
           <img src="../assets/images/common/logo.svg" alt="" />
@@ -64,11 +64,10 @@
           <img src="../assets/images/header/menu.svg" alt="" />
         </div>
       </nav>
-    </div>
+    </header>
 
-    <div class="banner">
+    <div class="banner-event">
       <div class="title">{{ $t("banner.title") }}</div>
-      <div class="title mobile">{{ $t("banner.titleMobile") }}</div>
       <div class="count-down-wrapper">
         <div class="count-down">
           <div class="days">
@@ -173,7 +172,7 @@
         </div>
       </div>
     </div>
-  </header>
+  </section>
 </template>
 
 <script>

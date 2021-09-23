@@ -1,5 +1,5 @@
 <template>
-  <div id="our-partners" class="our-partners">
+  <section id="our-partners" class="our-partners">
     <h3>{{ $t("ourPartners.title") }}</h3>
     <div>
       <Flickity
@@ -39,7 +39,7 @@
         </div>
       </Flickity>
     </div>
-  </div>
+  </section>
 </template>
 
 <script>

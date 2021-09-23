@@ -1,5 +1,5 @@
 <template>
-  <div id="contact-us" class="contact-us border-top">
+  <section id="contact-us" class="contact-us border-top">
     <div class="contact-us-wrapper row">
       <div class="col-12 col-md-3 information">
         <img src="../assets/images/common/logo.svg" alt="Logo" class="logo" />
@@ -84,7 +84,7 @@
         </div>
       </div>
     </div>
-  </div>
+  </section>
 </template>
 
 <script>

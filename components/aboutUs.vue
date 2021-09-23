@@ -1,5 +1,5 @@
 <template>
-  <div class="about-us" id="about-us">
+  <section class="about-us" id="about-us">
     <div class="content container">
       <div class="row">
         <div class="side-left col-12 col-md-6">
@@ -68,7 +68,7 @@
         </div>
       </div>
     </div>
-  </div>
+  </section>
 </template>
 
 <script>

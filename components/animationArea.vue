@@ -1,5 +1,5 @@
 <template>
-  <div class="container">
+  <section class="container">
     <div class="animation-area">
       <div class="Illustrator-container">
         <img
@@ -13,7 +13,7 @@
         <img class="map" src="../assets/images/contents/map.svg" alt="Map" />
       </div>
     </div>
-  </div>
+  </section>
 </template>
 
 <script>
