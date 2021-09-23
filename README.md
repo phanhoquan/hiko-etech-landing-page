@@ -1,4 +1,4 @@
-# etech-test
+# etech-landing-page
 
 ## Build Setup
 
