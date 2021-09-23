@@ -6,7 +6,7 @@
       <p class="description">{{ $t("ourGames.description") }}</p>
     </div>
 
-    <div class="products">
+    <div class="product-list">
       <div class="row">
         <div class="col-left col-6 col-md-6">
           <div class="row">
