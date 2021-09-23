@@ -1,0 +1,61 @@
+.layout-enter,
+.layout-leave-active {
+  opacity: 0;
+}
+
+.layout-enter-active,
+.layout-leave-active {
+  transition: opacity 0.2s;
+}
+
+@keyframes animation-move {
+  0% {
+    top: 70px;
+    bottom: 0px;
+    left: 100px;
+  }
+
+  100% {
+    top: 0px;
+    bottom: 70px;
+    left: -100px;
+  }
+}
+
+@-webkit-keyframes animation-move {
+  0% {
+    top: 70px;
+    bottom: 0px;
+    left: 100px;
+  }
+
+  100% {
+    top: 0px;
+    bottom: 70px;
+    left: -100px;
+  }
+}
+
+@keyframes animation-move-mobile {
+  0% {
+    top: 70px;
+    bottom: 0px;
+  }
+
+  100% {
+    top: 0px;
+    bottom: 70px;
+  }
+}
+
+@-webkit-keyframes animation-move-mobile {
+  0% {
+    top: 70px;
+    bottom: 0px;
+  }
+
+  100% {
+    top: 0px;
+    bottom: 70px;
+  }
+}

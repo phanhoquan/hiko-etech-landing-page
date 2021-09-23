@@ -1,0 +1,40 @@
+.animation-area {
+    justify-content: center;
+    margin-top: 50px;
+
+    .witcher-container {
+        position: relative;
+
+        .witcher {
+            position: relative;
+            animation-name: animation-move;
+            animation-duration: 2s;
+            animation-delay: 0s;
+            animation-iteration-count: infinite;
+            animation-direction: alternate-reverse;
+            -webkit-animation-name: animation-move;
+            -webkit-animation-duration: 2s;
+            -webkit-animation-delay: 0s;
+
+            @media (max-width: 768px) {
+                animation-name: animation-move-mobile;
+                -webkit-animation-name: animation-move-mobile;
+            }
+        }
+    }
+}
+
+@media (max-width: 768px) {
+    .animation-area {
+        margin-top: 20px;
+
+        .witcher {
+            width: 300px;
+            animation-name: none;
+        }
+
+        .map {
+            width: 380px;
+        }
+    }
+}
