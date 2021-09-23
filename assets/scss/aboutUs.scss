@@ -32,7 +32,7 @@
           font-style: normal;
           font-weight: bold;
           font-size: 80px;
-          line-height: 100px;
+          line-height: 1;
           letter-spacing: -1px;
           color: #079ff7;
 
@@ -118,9 +118,7 @@
 
           .value {
             font-size: 44px;
-            line-height: 55px;
             letter-spacing: -1px;
-            min-height: 63px;
 
             .unit {
               font-size: 22px;
