@@ -327,7 +327,6 @@
 
         p {
           letter-spacing: 0.9px;
-          display: inline;
           max-width: 420px;
         }
       }
@@ -342,6 +341,15 @@
 
         svg {
           right: 20px !important;
+        }
+      }
+    }
+
+    @media (max-width: 480px) {
+
+      .description {
+        p {
+          display: inline;
         }
       }
     }
