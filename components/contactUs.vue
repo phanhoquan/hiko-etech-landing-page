@@ -2,7 +2,9 @@
   <section id="contact-us" class="contact-us border-top">
     <div class="contact-us-wrapper row">
       <div class="col-12 col-md-3 information">
-        <img src="../assets/images/common/logo.svg" alt="Logo" class="logo" />
+        <a href="/" title="Logo">
+          <img src="../assets/images/common/logo.svg" alt="Logo" class="logo" />
+        </a>
         <div class="social">
           <a href="#" title="Twitter">
             <img
