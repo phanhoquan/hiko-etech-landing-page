@@ -2,6 +2,12 @@
     justify-content: center;
     margin-top: 50px;
 
+    .map-wrapper {
+        img {
+            width: 100%;
+        }
+    }
+
     .Illustrator-container {
         position: relative;
         text-align: center;
@@ -17,7 +23,7 @@
             -webkit-animation-duration: 2s;
             -webkit-animation-delay: 0s;
 
-            @media (max-width: 768px) {
+            @media (max-width: 991px) {
                 animation-name: animation-move-mobile;
                 -webkit-animation-name: animation-move-mobile;
             }
@@ -25,7 +31,7 @@
     }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 991px) {
     .animation-area {
         margin-top: 20px;
 
